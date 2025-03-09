@@ -1,6 +1,6 @@
 import { map } from "lodash-es";
-import { toFilm } from "~/utils/mapper";
-import type { Film } from "~/types";
+import { toFilm } from "../../utils/mapper";
+import type { Film } from "../../types";
 
 const getAll = async (): Promise<Film[]> => {
   const { records } = await useDriver().executeQuery(

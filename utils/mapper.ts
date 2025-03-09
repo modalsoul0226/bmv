@@ -1,5 +1,5 @@
 import { mapValues } from "lodash-es";
-import type { Film } from "~/types";
+import type { Film } from "../types";
 
 /**
  * Data mappers that maps entities from persistent storage to in-memory models.

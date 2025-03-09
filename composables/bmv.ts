@@ -1,4 +1,4 @@
-import type { Film, Optional } from "~/types";
+import type { Film, Optional } from "../types";
 
 export const fetchFilms = async (): Promise<Optional<Film[]>> => {
   const { data, error } = await useFetch("/api/film");
