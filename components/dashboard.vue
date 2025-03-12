@@ -22,6 +22,10 @@ const columns = [
     sortable: true,
   },
   {
+    key: "director",
+    label: "Director",
+  },
+  {
     key: "language",
     label: "Language",
   },
